@@ -6,8 +6,7 @@ namespace HexToString
     {
         private static void Main(string[] args)
         {
-            var convertorHex = new ConvertorHex();
-            Console.WriteLine(convertorHex.HexToString(convertorHex.StringToHex("abcdefgh")));
+               Console.WriteLine(convertorHex.HexToString(ConvertorHex.StringToHex("abcdefgh")));
         }
     }
 }
